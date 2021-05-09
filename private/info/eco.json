@@ -1,0 +1,155 @@
+{
+    "spawners": {
+        "pig": {
+            "name": "Pig Spawner",
+            "cost": 25000,
+            "drops": ["Cooked Pork"],
+            "sellprice": 0.10,
+            "secondary": ""
+        },
+        "sheep": {
+            "name": "Sheep Spawner",
+            "cost": 500000,
+            "drops": ["Wool"],
+            "sellprice": 0.75,
+            "secondary": ""
+        },
+        "cow": {
+            "name": "Cow Spawner",
+            "cost": 100000,
+            "drops": ["Steak", "Leather"],
+            "sellprice": 1.00,
+            "secondary": "$1.00"
+        },
+        "skeleton": {
+            "name": "Skeleton Spawner",
+            "cost": 150000,
+            "drops": ["Bones", "Arrows"],
+            "sellprice": 0.75,
+            "secondary": "$0.75"
+        },
+        "zombie": {
+            "name": "Zombie Spawner",
+            "cost": 250000,
+            "drops": ["Rotton Flesh"],
+            "sellprice": 3.00,
+            "secondary": ""
+        },
+        "creeper": {
+            "name": "Creeper Spawner",
+            "cost": 1000000,
+            "drops": ["Gunpowder"],
+            "sellprice": 7.50,
+            "secondary": ""
+        },
+        "irongolem": {
+            "name": "Iron Golem Spawner",
+            "cost": 1500000,
+            "drops": ["Iron Ingot"],
+            "sellprice": 10,
+            "secondary": ""
+        }
+    },
+    "mining": {
+        "coal": {
+            "name": "Coal",
+            "cost": 100,
+            "sellprice": 7.5,
+            "drops": ["20%"]
+
+        },
+        "iron": {
+            "name": "Iron",
+            "cost": 50,
+            "sellprice": 10,
+            "drops": ["20"]
+            
+        },
+        "redstone": {
+            "name": "RedStone",
+            "cost": 25,
+            "sellprice": 10,
+            "drops": ["10%"]
+            
+        },
+        "lapis": {
+            "name": "Lapis",
+            "cost": 25,
+            "sellprice": 10,
+            "drops": ["14%"]
+            
+        },
+        "diamond": {
+            "name": "Melon Slices",
+            "cost": 500,
+            "sellprice": 250,
+            "drops": ["5%"]
+            
+        },
+        "emerald": {
+            "name": "Emerald",
+            "cost": 500,
+            "sellprice": 300,
+            "drops": ["1%"]
+            
+        },
+        "cobblestone": {
+            "name": "Cobblestone",
+            "cost": 2,
+            "sellprice": 1,
+            "drops": ["30%"]
+            
+        }
+    },
+    "farming": {
+        "wheat": {
+            "name": "Wheat",
+            "cost": 10,
+            "drops": [],
+            "sellprice": 25,
+            "secondary": 0
+        },
+        "carrots": {
+            "name": "Carrots",
+            "cost": 50,
+            "drops": [],
+            "sellprice": 15,
+            "secondary": 0
+        },
+        "potatos": {
+            "name": "Potatos",
+            "cost": 50,
+            "drops": [],
+            "sellprice": 15,
+            "secondary": 0
+        },
+        "sugarcane": {
+            "name": "Sugar Cane",
+            "cost": 150,
+            "drops": [],
+            "sellprice": 10,
+            "secondary": 0
+        },
+        "melonslices": {
+            "name": "Melon Slices",
+            "cost": 10,
+            "drops": [],
+            "sellprice": 2.50,
+            "secondary": 0
+        },
+        "pumpkin": {
+            "name": "Pumpkin",
+            "cost": 10,
+            "drops": [],
+            "sellprice": 10,
+            "secondary": 0
+        },
+        "netherwart": {
+            "name": "Nether Wart",
+            "cost": 75,
+            "drops": [],
+            "sellprice": 50,
+            "secondary": 0
+        }
+    }
+}

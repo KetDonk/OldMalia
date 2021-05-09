@@ -1,0 +1,28 @@
+{
+    "ranks": {
+        "Cowboy": {
+            "order": 1,
+            "name": "Cowboy",
+            "icon": "vip+rank.png",
+            "cost": 5
+        },
+        "Outlaw": {
+            "order": 2,
+            "name": "Outlaw",
+            "icon": "mvprank.png",
+            "cost": 10
+        },
+        "Sheriff": {
+            "order": 3,
+            "name": "Sheriff",
+            "icon": "mvp+rank.png",
+            "cost": 20
+        },
+        "Malia": {
+            "order": 4,
+            "name": "Malia",
+            "icon": "godrank.png",
+            "cost": 35
+        }
+    }
+}

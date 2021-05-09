@@ -1,0 +1,39 @@
+{
+    "farming": {
+        "wheat": {
+            "name": "Wheat",
+            "cost": 10,
+            "sellprice": 25
+        },
+        "carrots": {
+            "name": "Carrots",
+            "cost": 50,
+            "sellprice": 15
+        },
+        "potatos": {
+            "name": "Potatos",
+            "cost": 50,
+            "sellprice": 15
+        },
+        "sugarcane": {
+            "name": "Sugar Cane",
+            "cost": 150,
+            "sellprice": 10
+        },
+        "melonslices": {
+            "name": "Melon Slices",
+            "cost": 10,
+            "sellprice": 2.50
+        },   
+        "pumpkin": {
+            "name": "Pumpkin",
+            "cost": 10,
+            "sellprice": 10
+        },
+        "netherwart": {
+            "name": "Nether Wart",
+            "cost": 75,
+            "sellprice": 50
+        }
+    }
+}

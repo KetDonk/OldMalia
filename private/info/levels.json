@@ -1,0 +1,64 @@
+{
+    "levels": {
+        "iron": {
+            "order": 1,
+            "name": "Iron Block",
+            "icon": "Iron.png",
+            "cost": 1400
+        },
+        "gold": {
+            "order": 2,
+            "name": "Gold Block",
+            "icon": "Gold.png",
+            "cost": 1800
+        },
+        "diamond": {
+            "order": 3,
+            "name": "Diamond Block",
+            "icon": "Diamond.png",
+            "cost": 2400
+        },
+        "emerald": {
+            "order": 4,
+            "name": "Emerald Block",
+            "icon": "Emerald.png",
+            "cost": 2800
+        },
+        "prismarine": {
+            "order": 5,
+            "name": "Prismarine",
+            "icon": "Prismarine.gif",
+            "cost": 1000000
+        },
+        "prismarinebrick": {
+            "order": 6,
+            "name": "Prismarine Brick",
+            "icon": "PrismarineBrick.png",
+            "cost": 10000000
+        },
+        "darkprismarine": {
+            "order": 7,
+            "name": "Dark Prismarine",
+            "icon": "DarkPrismarine.png",
+            "cost": 100000000
+        },
+        "bedrock": {
+            "order": 8,
+            "name": "Bedrock",
+            "icon": "Bedrock.png",
+            "cost": 1000000000
+        },
+        "slimeblock": {
+            "order": 9,
+            "name": "Slime Block",
+            "icon": "Slime.png",
+            "cost": 10000000000
+        },
+        "redstonelamp": {
+            "order": 10,
+            "name": "Redstone Lamp",
+            "icon": "Redstone_Lamp.png",
+            "cost": 100000000000
+        }
+    }
+}

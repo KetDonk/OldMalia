@@ -1,0 +1,18 @@
+{
+    "staff": {
+        "Harkxy": {
+            "order": 1,
+            "name": "Harlxy",
+            "icon": "Harlxy.gif",
+            "role": "Owner",
+            "type": "Owner"
+        },
+        "KetDonk": {
+            "order": 2,
+            "name": "KetDonk",
+            "icon": "KetDonk.png",
+            "role": "Owner",
+            "type": "Owner"
+        }     
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Malia",
+  "version": "1.0.0",
+  "description": "Epic epic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node private/index.js"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "KetDonk",
+  "license": "MIT",
+  "dependencies": {
+  "express":"4.16.2"
+  }
+}

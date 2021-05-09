@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="/res/image/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="/res/style/index.css"/>
+        <script src="/res/script/build/cookies.min.js"></script>
+        <script src="/res/script/build/darkmode.min.js"></script>
+        <script src="../res/script/build/rendereco.min.js"></script>
+        <script src="../res/script/build/rendereco2.min.js"></script>
+        <script src="../res/script/build/rendereco3.min.js"></script>
+    </head>
+    <body onload="light_start();render_eco();render_eco2();render_eco3();" class="light-mode">
+        <div class="navbar-main">
+            <a href="/" class="navbar-item">
+                <div>
+                    <span>MaliaMC</span>
+                </div>
+            </a>
+            <a href="/eco" class="navbar-item navbar-item-active">
+                <div>
+                    <span>Eco</span>
+                </div>
+            </a>
+			<a href="/rules" class="navbar-item">
+                <div>
+                    <span>Rules</span>
+                </div>
+            </a>
+            <a href="/levels" class="navbar-item">
+                <div>
+                    <span>Levels</span>
+                </div>
+            </a>
+            <a href="/ranks" class="navbar-item">
+                <div>
+                    <span>Ranks</span>
+                </div>
+            </a>
+            <a href="/staff" class="navbar-item">
+                <div>
+                    <span>Staff</span>
+                </div>
+            </a>
+            <a href="javascript:void 0;" onclick="toggle_light();" class="navbar-item float-right">
+                <div>
+                    <span class="fa fa-moon-o dark-toggle-icon"></span>
+                    <span class="dark-mode-toggle">Dark Mode</span>
+                </div>
+            </a>
+        </div>
+        <div class="main-body-cont">
+            <div class="main-body-text">
+                <span class="main-text-title">Eco</span><br>
+                <span class="main-text-subtitle">Eco sheet for beta map</span><br><br>
+                <!-- Start of eco sheet -->
+                <!-- Eco sheet 1 -->
+                <div class="main-table-eco-cont">
+                    <table class="main-table-eco">
+                        <thead class="main-table-eco-head">
+                            <tr class="main-table-eco-row">
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Name</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Cost</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Drops</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Sell Price</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Secondary</th>
+                            </tr>
+                        </thead>
+                        <tbody class="main-table-body main-table-eco-body"></tbody>
+                    </table>
+                </div>
+                <!-- Eco Sheet 2 -->
+                <div class="main-table-eco-cont">
+                    <table class="main-table-eco2">
+                        <thead class="main-table-eco-head">
+                            <tr class="main-table-eco-row">
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Name</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Cost</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Sell Price</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Spawn Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody class="main-table-body main-table-eco-body">
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Eco Sheet 3 -->
+                <div class="main-table-eco-cont">
+                    <table class="main-table-eco3">
+                        <thead class="main-table-eco-head">
+                            <tr class="main-table-eco-row">
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Name</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Seed Price</th>
+                                <th class="main-table-eco-cell main-table-eco-cell-header">Sell Price</th>
+                            </tr>
+                        </thead>
+                        <tbody class="main-table-body main-table-eco-body">
+                        </tbody>
+                    </table>
+                </div>
+                <!--End of Eco Sheets -->
+            </div>
+        </div>
+    </body>
+</html>

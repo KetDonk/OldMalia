@@ -1,0 +1,46 @@
+{
+    "mining": {
+        "coal": {
+            "name": "Coal",
+            "cost": 100,
+            "sellprice": 7.5,
+            "spawnRate": ["20%"]
+        },
+        "iron": {
+            "name": "Iron",
+            "cost": 50,
+            "sellprice": 10,
+            "spawnRate": ["20"]
+        },
+        "redstone": {
+            "name": "RedStone",
+            "cost": 25,
+            "sellprice": 10,
+            "spawnRate": ["10%"]
+        },
+        "lapis": {
+            "name": "Lapis",
+            "cost": 25,
+            "sellprice": 10,
+            "spawnRate": ["14%"]
+        },
+        "diamond": {
+            "name": "Melon Slices",
+            "cost": 500,
+            "sellprice": 250,
+            "spawnRate": ["5%"]
+        },
+        "emerald": {
+            "name": "Emerald",
+            "cost": 500,
+            "sellprice": 300,
+            "spawnRate": ["1%"]
+        },
+        "cobblestone": {
+            "name": "Cobblestone",
+            "cost": 2,
+            "sellprice": 1,
+            "spawnRate": ["30%"]
+        }
+    }
+}
